@@ -1,0 +1,5 @@
+Anotações da validação do processo de Testes Unitários
+- Escrever a metodologia no texto
+- Documentar as etapas do teste no documento (o desenvolvedor não precisa rodar esse exemplo)
+- Definir quem faz a correção dos testes em caso de falha
+- Detalhar as interfaces (pontos de contato com outras áreas de devops)
