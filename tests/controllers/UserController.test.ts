@@ -26,7 +26,7 @@ describe("UserController", () => {
       expect(res.json).toHaveBeenCalledWith({ message: "Formato de id inválido" });
     });
 
-    it("should return 404 if user is not found", () => {
+    it("deve retornar 404 caso o usuário não seja encontrado", () => {
       const req = { params: { id: "3" } } as unknown as Request;
       const res = { status: jest.fn().mockReturnThis(), json: jest.fn() } as unknown as Response;
 
